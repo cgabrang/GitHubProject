@@ -16,14 +16,20 @@ namespace GitHubProject
             {
                 Content = new StackLayout
                 {
+                    BackgroundColor = Color.Purple,
                     VerticalOptions = LayoutOptions.Center,
                     Children = {
                         new Label {
                             XAlign = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
+                            Text = "Welcome to Xamarin Forms!",
+                            TextColor = Color.Red
+                        },
+
+ 
                     }
                 }
+
+                
             };
         }
 
